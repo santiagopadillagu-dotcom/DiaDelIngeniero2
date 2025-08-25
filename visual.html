@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Día del Ingeniero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        
+        header,
+        nav,
+        footer {
+            background: #004080;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        section {
+            background: white;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            color: #004080;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        nav select {
+            padding: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Día del Ingeniero en Colombia</h1>
+        <p>17 de agosto</p>
+    </header>
+    <nav>
+        <label for="menu">Ir a sección:</label>
+        <select id="menu" onchange="location.href=this.value">
+<option value="#historia">Historia</option>
+<option value="#ramas">Ramas</option>
+<option value="#aportes">Aportes</option>
+<option value="#personajes">Personajes</option>
+<option value="#retos">Retos</option>
+<option value="#frases">Frases</option>
+</select>
+    </nav>
+    <main>
+        <section id="historia">
+            <h2>Historia</h2>
+            <article>
+                <p>En Colombia, el <strong>17 de agosto</strong> se celebra el Día del Ingeniero. Esta fecha se instituyó para reconocer la importancia de los profesionales que contribuyen al progreso social, económico y tecnológico del país.</p>
+                <p>La ingeniería en Colombia ha tenido un papel fundamental en el desarrollo de grandes obras de infraestructura, la expansión de las telecomunicaciones y la formación de nuevas generaciones de profesionales que impulsan la innovación.</p>
+                <img src="imagenes/historia" alt="">
+            </article>
+        </section>
+        <section id="ramas">
+            <h2>Ramas de la Ingeniería</h2>
+            <article>
+                <p>La ingeniería abarca múltiples disciplinas que permiten solucionar problemas en distintos ámbitos:
+                </p>
+                <ul>
+                    <li><strong>Ingeniería Civil:</strong> construcción de carreteras, puentes y edificios.</li>
+                    <li><strong>Ingeniería de Sistemas:</strong> desarrollo de software, redes e inteligencia artificial.
+                    </li>
+                    <li><strong>Ingeniería Eléctrica y Electrónica:</strong> energía, telecomunicaciones y automatización.
+                    </li>
+                    <li><strong>Ingeniería Industrial:</strong> optimización de procesos y gestión empresarial.</li>
+                    <li><strong>Ingeniería Mecánica:</strong> diseño de máquinas, motores y equipos industriales.
+                    </li>
+                </ul>
+                <img src="imagenes/ramas.png" alt="">
+            </article>
+        </section>
+        <section id="aportes">
+            <h2>Aportes</h2>
+            <article>
+                <p>Gracias a la ingeniería, se han logrado avances que mejoran la calidad de vida de las personas:
+                </p>
+                <ul>
+                    <li>La construcción de carreteras y aeropuertos que conectan regiones.</li>
+                    <li>La generación y distribución de energía eléctrica para hogares y empresas.</li>
+                    <li>El desarrollo de tecnologías de la información y la comunicación.</li>
+                    <li>La implementación de sistemas de agua potable y saneamiento.</li>
+                </ul>
+                <p>Todos estos aportes reflejan cómo la ingeniería transforma ideas en soluciones prácticas para la sociedad.</p>
+                <img src="imagenes/aportes" alt="">
+            </article>
+        </section>
+        <section id="personajes">
+            <h2>Ingenieros Destacados</h2>
+            <article>
+                <p>Colombia cuenta con ingenieros que han dejado huella en la historia:</p>
+                <ul>
+                    <li><strong>Julio Garavito Armero:</strong> ingeniero y astrónomo, reconocido por sus estudios sobre la luna y por aparecer en el billete de 20.000 pesos.</li>
+                    <li><strong>Francisco José de Caldas:</strong> ingeniero, geógrafo y científico colombiano que hizo grandes aportes al conocimiento de la geografía y la astronomía.</li>
+                </ul>
+                <img src="imagenes/francisco" alt="">
+                <img src="imagenes/julio.jpg" alt="">
+            </article>
+        </section>
+        <section id="retos">
+            <h2>Retos Actuales</h2>
+            <article>
+                <p>Los ingenieros del siglo XXI enfrentan desafíos globales que requieren creatividad y responsabilidad:
+                </p>
+                <ul>
+                    <li>Combatir el cambio climático con energías limpias y sostenibles.</li>
+                    <li>Desarrollar infraestructuras más seguras y resilientes.</li>
+                    <li>Innovar en tecnologías digitales como la inteligencia artificial y la ciberseguridad.</li>
+                    <li>Garantizar el acceso equitativo a los avances tecnológicos.</li>
+                </ul>
+                <img src="Imagenes/retos" alt="">
+            </article>
+        </section>
+        <section id="frases">
+            <h2>Frases</h2>
+            <article>
+                <blockquote>“La ciencia de hoy es la tecnología de mañana.” – Edward Teller</blockquote>
+                <blockquote>“Los ingenieros son los arquitectos del futuro.” – Anónimo</blockquote>
+                <blockquote>“El ingenio y la creatividad son la base de la ingeniería.” – Anónimo</blockquote>
+                <img src="Imagenes/frase" alt="">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Hecho por Santiago Padilla Gutiérrez </p>
+    </footer>
+</body>
+
+</html>
